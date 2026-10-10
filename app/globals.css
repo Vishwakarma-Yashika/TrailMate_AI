@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+:root { --forest: #173f35; --lime: #d7f36b; --paper: #f7f7f0; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--paper); color: #20382f; font-family: Arial, Helvetica, sans-serif; }
+button { cursor: pointer; }
+.map-grid {
+  background-color: #e7eadc;
+  background-image: linear-gradient(rgba(84,113,82,.08) 1px, transparent 1px), linear-gradient(90deg, rgba(84,113,82,.08) 1px, transparent 1px);
+  background-size: 26px 26px;
+}
